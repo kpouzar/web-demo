@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Alef Web Server</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Alef Demo Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <h1>Alef web server</h1>
-  
-  <table id="metadata">
-    <tr><th>Metadata</th><th>Value</th></tr>
-  </table>
-
-  <script>
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/metadata');
-    xhr.onload = function() {
-      var response = JSON.parse(xhr.responseText);
-      var table = document.getElementById('metadata');
-
-      for (var key in response) {
-        var row = document.createElement('tr');
-        var keyCell = document.createElement('td');
-        var valueCell = document.createElement('td');
-        keyCell.innerHTML = key; 
-        valueCell.innerHTML = response[key];
-        row.appendChild(keyCell);
-        row.appendChild(valueCell);
-        table.appendChild(row);
-      }
-    }
-    xhr.send();
-  </script>
-
+    <header>
+        <h1>Alef Demo Web</h1>
+    </header>
+    <main>
+        <table id="metadata-table">
+            <thead>
+                <tr>
+                    <th>Metadata Name</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
