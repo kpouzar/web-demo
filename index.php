@@ -75,6 +75,7 @@ $desired_keys = [
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<img src="1-Header.png">   
 <img src="pic-alef.png" width="20%">
   <h1>Welcome to Alef Demo in AWS</h1>
 
@@ -90,5 +91,6 @@ $desired_keys = [
         </tr>
      <?php endforeach; ?>
   </table>
+<img src="2-Footer.png">   
 </body>
 </html>
