@@ -77,7 +77,7 @@ $desired_keys = [
 <body>
 <img src="1-Header.png" class="center">   
 <!-- <img src="pic-alef.png" width="20%"> -->
-  <h1>Welcome our ALEF DEMO in AWS!</h1>
+  <h1 class="center">Welcome our ALEF DEMO in AWS!</h1>
  
   <table>
      <tr>
