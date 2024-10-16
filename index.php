@@ -92,6 +92,6 @@ $desired_keys = [
      <?php endforeach; ?>
   </table>
  
-<img src="2-Footer.png">   
+<img src="2-Footer.png" class="center">   
 </body>
 </html>
