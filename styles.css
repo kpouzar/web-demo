@@ -1,5 +1,9 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 table {
-    width: 80%;
+    width: 900px;
     margin: 0 auto;
     border-collapse: collapse;
     font-size: 1.2rem;
